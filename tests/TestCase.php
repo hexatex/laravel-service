@@ -2,9 +2,9 @@
 
 namespace Hexatex\LaravelService\Tests;
 
+use Hexatex\LaravelService\ServiceServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Hexatex\LaravelService\ServiceServiceProvider;
 
 class TestCase extends Orchestra
 {

@@ -2,9 +2,9 @@
 
 namespace Hexatex\LaravelService;
 
+use Hexatex\LaravelService\Commands\ServiceCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Hexatex\LaravelService\Commands\ServiceCommand;
 
 class ServiceServiceProvider extends PackageServiceProvider
 {
