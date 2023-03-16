@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "hexatex/laravel-service",
+    "description": "This package supplies some tools for the service layer of Laravel projects",
     "keywords": [
-        ":vendor_name",
+        "hexatex",
         "laravel",
-        ":package_slug"
+        "laravel-service"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/hexatex/laravel-service",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Cory Baumer",
+            "email": "cory.j.baumer@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Hexatex\\LaravelService\\": "src",
+            "Hexatex\\LaravelService\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Hexatex\\LaravelService\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,9 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Hexatex\\LaravelService\\ServiceServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
             }
         }
     },
